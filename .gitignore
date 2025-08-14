@@ -1,0 +1,77 @@
+# Altium Designer 25 专用 .gitignore
+
+### 目录级忽略 ###
+# 忽略所有项目的历史备份目录
+**/History/
+# 忽略所有项目的预览缓存目录
+**/__Previews/
+# 忽略所有项目的输出文件目录
+**/Project Outputs for */
+# 忽略所有项目的日志目录
+**/Project Logs for */
+
+### 文件类型忽略 ###
+# Altium 自动备份文件 (ControlBoard.~(1).PcbDoc.Zip 等)
+*.~*
+# 通用备份文件
+*.bak
+# 项目结构缓存文件
+*.PrjPcbStructure
+*.PrjMbdStructure
+# 预览缓存文件
+*.SchDocPreview
+# 日志文件
+*.LOG
+# 设计规则检查文件
+*.drc
+*.html
+# 3D/制造相关文件
+*.step
+*.jpg
+*.bip
+*.png
+*.mtl
+*.obj
+# 多板设计文件
+*.MbaDoc
+*.MbsDoc
+
+### 特殊文件忽略 ###
+# 原理图/PCB 的 ZIP 备份 (如 DCDC.~(1).SchDoc.Zip)
+*.SchDoc.Zip
+*.PcbDoc.Zip
+*.PrjPcb.Zip
+*.PrjMbd.Zip
+# 库文件的 ZIP 备份
+*.SchLib.Zip
+*.PcbLib.Zip
+# 多板设计相关备份
+*.MbsDoc.Zip
+*.MbaDoc.Zip
+
+### 系统文件 ###
+# Windows 缩略图缓存
+Thumbs.db
+# macOS 属性文件
+.DS_Store
+# Windows 目录配置
+desktop.ini
+
+### 需要保留的核心文件 ###
+# 确保保留所有设计文档
+!*.PrjPcb
+!*.PrjMbd
+!*.SchDoc
+!*.PcbDoc
+!*.MbsDoc
+!*.MbaDoc
+# 确保保留所有库文件
+!*.SchLib
+!*.PcbLib
+# 确保保留项目结构文件
+!*.PrjPcbStructure
+!*.PrjMbdStructure
+# 保留其他重要文件
+!*.DXF
+!Readme.md
+!tree.txt
