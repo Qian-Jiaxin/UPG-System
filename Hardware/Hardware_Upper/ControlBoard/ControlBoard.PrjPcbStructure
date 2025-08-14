@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Top.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=FPGA|SchDesignator=FPGA|FileName=EP4CE10F17C8N_Core.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=EP4CE10F17C8N_Core.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=STM32F407ZET6_Core.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=STM32F407ZET6_Core.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=POWER|SchDesignator=POWER|FileName=DCDC.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=DCDC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

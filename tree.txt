@@ -1,0 +1,760 @@
+.
+|-- Hardware
+|   |-- Hardware_Lower
+|   `-- Hardware_Upper
+|       |-- ControlBoard
+|       |   |-- ControlBoard.DXF
+|       |   |-- ControlBoard.PcbDoc
+|       |   |-- ControlBoard.PrjPcb
+|       |   |-- ControlBoard.PrjPcbStructure
+|       |   |-- ControlBoard.pdf.mtl
+|       |   |-- ControlBoard.pdf.obj
+|       |   |-- DCDC.SchDoc
+|       |   |-- EP4CE10F17C8N_Core.SchDoc
+|       |   |-- History
+|       |   |   |-- ControlBoard.~(1).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(1).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(10).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(100).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(101).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(102).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(103).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(104).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(105).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(106).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(107).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(108).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(109).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(11).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(110).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(111).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(112).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(113).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(114).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(115).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(116).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(117).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(118).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(119).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(12).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(120).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(121).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(122).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(123).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(124).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(125).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(126).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(127).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(128).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(129).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(13).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(130).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(131).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(132).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(133).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(134).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(135).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(136).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(137).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(138).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(139).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(14).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(140).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(141).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(142).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(143).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(144).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(145).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(146).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(147).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(148).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(149).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(15).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(150).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(151).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(152).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(153).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(154).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(155).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(156).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(157).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(158).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(159).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(16).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(160).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(161).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(162).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(163).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(164).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(165).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(166).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(167).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(168).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(169).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(17).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(170).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(171).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(172).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(173).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(174).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(175).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(176).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(177).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(178).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(179).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(18).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(180).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(181).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(182).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(183).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(184).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(185).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(186).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(187).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(188).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(189).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(19).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(190).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(191).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(192).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(193).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(194).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(195).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(196).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(197).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(198).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(199).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(2).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(2).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(20).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(200).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(201).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(202).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(203).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(204).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(205).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(206).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(207).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(208).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(209).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(21).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(210).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(211).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(212).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(213).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(214).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(215).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(216).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(217).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(218).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(219).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(22).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(220).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(221).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(222).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(223).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(224).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(225).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(226).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(227).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(228).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(229).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(23).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(230).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(231).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(232).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(233).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(234).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(235).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(236).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(237).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(238).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(239).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(24).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(240).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(241).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(242).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(243).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(244).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(245).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(246).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(247).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(248).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(249).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(25).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(250).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(251).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(252).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(253).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(254).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(255).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(256).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(257).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(258).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(259).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(26).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(260).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(261).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(262).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(263).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(27).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(28).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(29).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(3).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(3).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(30).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(31).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(32).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(33).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(34).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(35).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(36).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(37).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(38).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(39).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(4).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(4).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(40).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(41).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(42).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(43).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(44).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(45).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(46).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(47).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(48).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(49).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(5).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(5).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(50).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(51).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(52).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(53).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(54).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(55).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(56).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(57).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(58).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(59).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(6).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(6).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(60).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(61).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(62).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(63).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(64).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(65).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(66).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(67).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(68).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(69).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(7).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(7).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(70).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(71).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(72).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(73).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(74).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(75).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(76).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(77).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(78).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(79).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(8).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(8).PrjPcb.Zip
+|       |   |   |-- ControlBoard.~(80).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(81).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(82).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(83).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(84).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(85).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(86).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(87).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(88).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(89).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(9).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(90).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(91).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(92).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(93).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(94).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(95).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(96).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(97).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(98).PcbDoc.Zip
+|       |   |   |-- ControlBoard.~(99).PcbDoc.Zip
+|       |   |   |-- DCDC.~(1).SchDoc.Zip
+|       |   |   |-- DCDC.~(10).SchDoc.Zip
+|       |   |   |-- DCDC.~(11).SchDoc.Zip
+|       |   |   |-- DCDC.~(12).SchDoc.Zip
+|       |   |   |-- DCDC.~(13).SchDoc.Zip
+|       |   |   |-- DCDC.~(2).SchDoc.Zip
+|       |   |   |-- DCDC.~(3).SchDoc.Zip
+|       |   |   |-- DCDC.~(4).SchDoc.Zip
+|       |   |   |-- DCDC.~(5).SchDoc.Zip
+|       |   |   |-- DCDC.~(6).SchDoc.Zip
+|       |   |   |-- DCDC.~(7).SchDoc.Zip
+|       |   |   |-- DCDC.~(8).SchDoc.Zip
+|       |   |   |-- DCDC.~(9).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(1).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(10).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(11).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(12).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(13).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(14).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(15).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(16).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(17).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(18).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(19).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(2).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(20).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(21).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(22).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(23).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(24).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(25).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(26).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(27).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(28).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(29).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(3).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(30).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(31).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(32).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(33).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(34).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(35).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(36).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(37).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(38).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(39).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(4).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(40).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(41).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(42).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(43).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(44).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(45).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(46).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(47).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(48).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(49).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(5).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(50).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(51).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(52).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(6).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(7).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(8).SchDoc.Zip
+|       |   |   |-- EP4CE10F17C8N_Core.~(9).SchDoc.Zip
+|       |   |   |-- FDK1620YSOT236G_TR.~(1).SchDoc.Zip
+|       |   |   |-- Lib
+|       |   |   |   |-- CustomizedLib.~(1).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(1).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(10).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(10).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(11).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(11).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(12).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(12).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(13).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(13).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(14).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(14).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(15).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(15).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(16).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(16).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(17).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(17).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(18).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(18).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(19).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(19).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(2).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(2).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(20).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(20).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(21).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(21).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(22).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(22).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(23).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(23).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(24).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(24).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(25).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(25).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(26).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(26).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(27).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(27).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(28).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(28).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(29).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(29).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(3).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(3).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(30).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(30).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(31).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(31).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(32).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(32).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(33).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(34).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(35).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(36).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(37).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(38).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(39).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(4).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(4).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(40).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(41).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(42).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(43).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(44).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(45).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(46).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(47).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(48).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(5).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(5).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(6).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(6).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(7).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(7).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(8).PcbLib.Zip
+|       |   |   |   |-- CustomizedLib.~(8).SchLib.Zip
+|       |   |   |   |-- CustomizedLib.~(9).PcbLib.Zip
+|       |   |   |   `-- CustomizedLib.~(9).SchLib.Zip
+|       |   |   |-- Optical_Fiber.~(1).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(2).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(3).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(4).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(5).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(6).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(7).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(8).SchDoc.Zip
+|       |   |   |-- Optical_Fiber.~(9).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(1).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(2).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(3).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(4).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(5).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(6).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(7).SchDoc.Zip
+|       |   |   |-- STM32F407VET6_Core.~(8).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(1).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(10).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(11).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(12).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(13).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(14).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(15).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(16).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(17).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(18).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(19).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(2).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(20).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(21).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(22).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(23).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(24).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(25).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(26).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(27).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(28).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(29).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(3).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(30).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(31).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(32).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(33).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(34).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(35).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(36).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(37).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(38).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(39).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(4).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(40).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(41).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(42).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(43).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(44).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(45).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(46).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(47).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(48).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(49).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(5).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(50).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(51).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(52).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(53).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(54).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(55).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(56).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(57).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(58).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(59).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(6).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(60).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(61).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(62).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(63).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(64).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(65).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(66).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(67).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(68).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(69).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(7).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(70).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(8).SchDoc.Zip
+|       |   |   |-- STM32F407ZET6_Core.~(9).SchDoc.Zip
+|       |   |   |-- Top.~(1).SchDoc.Zip
+|       |   |   |-- Top.~(10).SchDoc.Zip
+|       |   |   |-- Top.~(11).SchDoc.Zip
+|       |   |   |-- Top.~(12).SchDoc.Zip
+|       |   |   |-- Top.~(13).SchDoc.Zip
+|       |   |   |-- Top.~(14).SchDoc.Zip
+|       |   |   |-- Top.~(15).SchDoc.Zip
+|       |   |   |-- Top.~(16).SchDoc.Zip
+|       |   |   |-- Top.~(17).SchDoc.Zip
+|       |   |   |-- Top.~(18).SchDoc.Zip
+|       |   |   |-- Top.~(19).SchDoc.Zip
+|       |   |   |-- Top.~(2).SchDoc.Zip
+|       |   |   |-- Top.~(20).SchDoc.Zip
+|       |   |   |-- Top.~(21).SchDoc.Zip
+|       |   |   |-- Top.~(22).SchDoc.Zip
+|       |   |   |-- Top.~(23).SchDoc.Zip
+|       |   |   |-- Top.~(24).SchDoc.Zip
+|       |   |   |-- Top.~(3).SchDoc.Zip
+|       |   |   |-- Top.~(4).SchDoc.Zip
+|       |   |   |-- Top.~(5).SchDoc.Zip
+|       |   |   |-- Top.~(6).SchDoc.Zip
+|       |   |   |-- Top.~(7).SchDoc.Zip
+|       |   |   |-- Top.~(8).SchDoc.Zip
+|       |   |   `-- Top.~(9).SchDoc.Zip
+|       |   |-- Lib
+|       |   |   |-- CustomizedLib.PcbLib
+|       |   |   `-- CustomizedLib.SchLib
+|       |   |-- Optical_Fiber.SchDoc
+|       |   |-- Project Logs for ControlBoard
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 14-57-03.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 15-29-45.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 15-56-56.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 16-01-34.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 16-15-57.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 20-28-36.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 20-39-17.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 20-57-08.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 20-57-38.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 21-21-16.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 21-26-52.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 22-06-25.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 22-48-46.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 22-57-45.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-11 22-58-32.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 10-19-40.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 10-38-09.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 11-46-39.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 11-48-57.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 13-04-05.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 13-59-43.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 14-09-47.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 14-35-02.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 14-35-35.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 14-39-22.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 15-00-30.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 15-09-23.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 15-20-38.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 15-21-26.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 15-34-05.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 15-51-03.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 20-41-18.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 21-14-45.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 21-19-24.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 21-28-04.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 21-44-10.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 21-52-39.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 23-42-10.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 23-48-43.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-12 9-49-49.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-13 13-36-21.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-13 13-37-39.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-13 13-38-01.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-13 13-39-07.LOG
+|       |   |   |-- ControlBoard PCB ECO 2025-8-13 13-48-03.LOG
+|       |   |   |-- DCDC SCH ECO 2025-8-11 14-48-04.LOG
+|       |   |   |-- DCDC SCH ECO 2025-8-12 23-42-03.LOG
+|       |   |   |-- EP4CE10F17C8N_Core SCH ECO 2025-8-11 14-48-04.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-11 22-48-32.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-12 10-19-09.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-12 10-38-02.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 20-47-29.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 20-54-21.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 21-02-07.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 21-02-35.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 21-04-40.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 21-10-57.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 21-13-16.LOG
+|       |   |   |-- STM32F407ZET6_Core SCH ECO 2025-8-7 21-19-31.LOG
+|       |   |   `-- Top SCH ECO 2025-8-12 13-03-16.LOG
+|       |   |-- Project Outputs for ControlBoard
+|       |   |   |-- Design Rule Check - ControlBoard.drc
+|       |   |   `-- Design Rule Check - ControlBoard.html
+|       |   |-- STM32F407ZET6_Core.SchDoc
+|       |   |-- Top.SchDoc
+|       |   |-- __Previews
+|       |   |   |-- DCDC.SchDocPreview
+|       |   |   |-- EP4CE10F17C8N_Core.SchDocPreview
+|       |   |   |-- FDK1620YSOT236G_TR.SchDocPreview
+|       |   |   |-- Optical_Fiber.SchDocPreview
+|       |   |   |-- STM32F407VET6_Core.SchDocPreview
+|       |   |   |-- STM32F407ZET6_Core.SchDocPreview
+|       |   |   `-- Top.SchDocPreview
+|       |   `-- untitled.1.jpg
+|       |-- ExpandBoard
+|       |   |-- ExBoard.PcbDoc
+|       |   |-- ExBoard.SchDoc
+|       |   |-- ExpandBoard.PrjPcb
+|       |   |-- ExpandBoard.PrjPcbStructure
+|       |   |-- History
+|       |   |   |-- ExBoard.~(1).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(1).SchDoc.Zip
+|       |   |   |-- ExBoard.~(10).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(10).SchDoc.Zip
+|       |   |   |-- ExBoard.~(11).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(11).SchDoc.Zip
+|       |   |   |-- ExBoard.~(12).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(12).SchDoc.Zip
+|       |   |   |-- ExBoard.~(13).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(14).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(15).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(16).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(17).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(18).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(19).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(2).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(2).SchDoc.Zip
+|       |   |   |-- ExBoard.~(20).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(21).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(22).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(23).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(24).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(25).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(26).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(27).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(28).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(29).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(3).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(3).SchDoc.Zip
+|       |   |   |-- ExBoard.~(4).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(4).SchDoc.Zip
+|       |   |   |-- ExBoard.~(5).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(5).SchDoc.Zip
+|       |   |   |-- ExBoard.~(6).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(6).SchDoc.Zip
+|       |   |   |-- ExBoard.~(7).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(7).SchDoc.Zip
+|       |   |   |-- ExBoard.~(8).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(8).SchDoc.Zip
+|       |   |   |-- ExBoard.~(9).PcbDoc.Zip
+|       |   |   |-- ExBoard.~(9).SchDoc.Zip
+|       |   |   |-- ExpandBoard.~(1).PrjPcb.Zip
+|       |   |   |-- ExpandBoard.~(2).PrjPcb.Zip
+|       |   |   |-- ExpandBoard.~(3).PrjPcb.Zip
+|       |   |   |-- ExpandBoard.~(4).PrjPcb.Zip
+|       |   |   `-- Optical_Fiber.~(1).SchDoc.Zip
+|       |   |-- Project Logs for ExpandBoard
+|       |   |   |-- ExBoard PCB ECO 2025-8-13 14-36-15.LOG
+|       |   |   |-- ExBoard PCB ECO 2025-8-13 15-01-28.LOG
+|       |   |   |-- ExBoard PCB ECO 2025-8-13 15-44-24.LOG
+|       |   |   |-- ExBoard PCB ECO 2025-8-13 19-45-58.LOG
+|       |   |   `-- ExBoard SCH ECO 2025-8-13 14-35-00.LOG
+|       |   `-- __Previews
+|       |       |-- ExBoard.SchDocPreview
+|       |       `-- Optical_Fiber.SchDocPreview
+|       |-- MultiBoard_Project
+|       |   |-- Assembly1.MbaDoc
+|       |   |-- Assembly1.step
+|       |   |-- History
+|       |   |   |-- Assembly1.~(1).MbaDoc.Zip
+|       |   |   |-- Assembly1.~(2).MbaDoc.Zip
+|       |   |   |-- MultiBoardSchematic1.~(1).MbsDoc.Zip
+|       |   |   |-- MultiBoardSchematic1.~(2).MbsDoc.Zip
+|       |   |   |-- MultiBoardSchematic1.~(3).MbsDoc.Zip
+|       |   |   |-- MultiBoardSchematic1.~(4).MbsDoc.Zip
+|       |   |   |-- MultiBoardSchematic1.~(5).MbsDoc.Zip
+|       |   |   |-- MultiBoard_Project.~(1).PrjMbd.Zip
+|       |   |   |-- MultiBoard_Project.~(2).PrjMbd.Zip
+|       |   |   |-- MultiBoard_Project.~(3).PrjMbd.Zip
+|       |   |   |-- MultiBoard_Project.~(4).PrjMbd.Zip
+|       |   |   `-- MultiBoard_Project.~(5).PrjMbd.Zip
+|       |   |-- MultiBoardSchematic1.MbsDoc
+|       |   |-- MultiBoard_Project.PrjMbd
+|       |   |-- MultiBoard_Project.PrjMbdStructure
+|       |   `-- untitled.3.jpg
+|       `-- OPCellBoard
+|           |-- History
+|           |   |-- FFFFFFFFC5423CAA
+|           |   |   `-- CustomizedLib.~(1).PcbLib.Zip
+|           |   |-- OPCellBoard.~(1).PrjPcb.Zip
+|           |   |-- OPCellBoard.~(2).PrjPcb.Zip
+|           |   |-- Optical_Fiber.~(1).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(1).SchDoc.Zip
+|           |   |-- Optical_Fiber.~(10).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(11).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(12).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(13).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(14).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(15).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(2).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(2).SchDoc.Zip
+|           |   |-- Optical_Fiber.~(3).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(3).SchDoc.Zip
+|           |   |-- Optical_Fiber.~(4).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(4).SchDoc.Zip
+|           |   |-- Optical_Fiber.~(5).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(5).SchDoc.Zip
+|           |   |-- Optical_Fiber.~(6).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(7).PcbDoc.Zip
+|           |   |-- Optical_Fiber.~(8).PcbDoc.Zip
+|           |   `-- Optical_Fiber.~(9).PcbDoc.Zip
+|           |-- OPCell.1.jpg
+|           |-- OPCell.bip
+|           |-- OPCellBoard.PrjPcb
+|           |-- OPCellBoard.PrjPcbStructure
+|           |-- Optical_Fiber.PcbDoc
+|           |-- Optical_Fiber.SchDoc
+|           |-- Optical_Fiber.pdf.mtl
+|           |-- Optical_Fiber.pdf.obj
+|           |-- Optical_Fiber.png
+|           |-- Optical_Fiber.step
+|           |-- Project Logs for OPCellBoard
+|           |   |-- Optical_Fiber PCB ECO 2025-8-13 20-16-53.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 13-20-37.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 13-42-08.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 13-56-07.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 13-56-17.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 13-57-32.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 14-19-17.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 21-07-12.LOG
+|           |   |-- Optical_Fiber PCB ECO 2025-8-9 22-51-39.LOG
+|           |   `-- Optical_Fiber SCH ECO 2025-8-9 13-20-19.LOG
+|           |-- Project Outputs for OPCellBoard
+|           |   |-- Design Rule Check - Optical_Fiber.drc
+|           |   `-- Design Rule Check - Optical_Fiber.html
+|           `-- __Previews
+|               `-- Optical_Fiber.SchDocPreview
+|-- Readme.md
+|-- Software
+`-- tree.txt
+
+23 directories, 734 files
