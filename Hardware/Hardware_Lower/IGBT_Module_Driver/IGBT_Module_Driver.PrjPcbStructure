@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Top.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=DRIVER.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=DRIVER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=STM32_CORE.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=STM32_CORE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Top.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=POWER.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
