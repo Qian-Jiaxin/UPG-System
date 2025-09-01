@@ -75,3 +75,6 @@ desktop.ini
 !*.DXF
 !Readme.md
 !tree.txt
+
+Software/Software_Upper/FPGA/db/              # FPGA 编译数据库
+Software/Software_Upper/FPGA/*.qws            # Quartus 工作空间文件
