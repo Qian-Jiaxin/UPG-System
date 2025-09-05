@@ -57,6 +57,44 @@ Thumbs.db
 # Windows 目录配置
 desktop.ini
 
+### 嵌入式开发文件 ###
+# 编译输出目录
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.d
+*.su
+*.axf
+
+# IDE 配置
+.vscode/
+.eide/
+*.uvprojx
+*.uvoptx
+*.uvguix.*
+*.ewp
+*.eww
+*.dep
+*.crf
+*.trail
+
+# 调试文件
+*.debug
+*.jdebug
+
+# 中间文件
+*.log
+*.tmp
+*.temp
+
+# CMSIS 和 HAL 驱动生成的中间文件
+**/DebugConfig/
+**/RTE/
+
 ### 需要保留的核心文件 ###
 # 确保保留所有设计文档
 !*.PrjPcb
@@ -75,3 +113,6 @@ desktop.ini
 !*.DXF
 !Readme.md
 !tree.txt
+
+Software/Software_Upper/FPGA/db/              # FPGA 编译数据库
+Software/Software_Upper/FPGA/*.qws            # Quartus 工作空间文件
