@@ -107,6 +107,11 @@ ETH_HandleTypeDef heth;
 ETH_TxPacketConfig TxConfig;
 
 /* Private function prototypes -----------------------------------------------*/
+/* USER CODE BEGIN Private function prototypes for User BSP */
+
+/* USER CODE END Private function prototypes for User BSP */
+
+/* USER CODE BEGIN 3 */
 int32_t ETH_PHY_IO_Init(void);
 int32_t ETH_PHY_IO_DeInit (void);
 int32_t ETH_PHY_IO_ReadReg(uint32_t DevAddr, uint32_t RegAddr, uint32_t *pRegVal);
@@ -119,9 +124,6 @@ yt8512c_ioc_tx_t  YT8512C_IOCtx = {ETH_PHY_IO_Init,
                                   ETH_PHY_IO_WriteReg,
                                   ETH_PHY_IO_ReadReg,
                                   ETH_PHY_IO_GetTick};
-
-/* USER CODE BEGIN 3 */
-
 /* USER CODE END 3 */
 
 /* Private functions ---------------------------------------------------------*/

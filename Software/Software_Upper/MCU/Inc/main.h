@@ -59,6 +59,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define ETH_NREST_Pin GPIO_PIN_7
 #define ETH_NREST_GPIO_Port GPIOF
+#define FPGA_TRIGER_IN_Pin GPIO_PIN_6
+#define FPGA_TRIGER_IN_GPIO_Port GPIOC
+#define FPGA_TRIGER_OUT_Pin GPIO_PIN_7
+#define FPGA_TRIGER_OUT_GPIO_Port GPIOC
+#define FPGA_NRST_Pin GPIO_PIN_4
+#define FPGA_NRST_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

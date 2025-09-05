@@ -18,12 +18,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "crc.h"
 #include "lwip.h"
 #include "gpio.h"
+#include "fsmc.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "UserFSMC.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,8 +90,13 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_LWIP_Init();
+  MX_FSMC_Init();
+  MX_CRC_Init();
   /* USER CODE BEGIN 2 */
-
+  User_InitModule(); // Initialize FSMC Module
+  User_EnableModule(0x01); // Enable Module 1
+  User_EnableModule(0x02); // Enable Module 2
+  User_SetPulseWidth(6000);  // Set Pulse Width to 6000ns
   /* USER CODE END 2 */
 
   /* Infinite loop */
