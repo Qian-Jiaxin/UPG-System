@@ -114,5 +114,33 @@ build/
 !Readme.md
 !tree.txt
 
-Software/Software_Upper/FPGA/db/              # FPGA 编译数据库
-Software/Software_Upper/FPGA/*.qws            # Quartus 工作空间文件
+# 数据库和中间文件目录
+db/
+incremental_db/
+
+# 输出文件目录（如果不希望将编译输出纳入版本控制）
+output_files/
+
+# 仿真文件目录
+simulation/
+
+# 日志和报告文件
+*.qlog
+*.rpt
+
+# 用户特定文件
+*.qws
+*.qpg
+
+# 临时文件和备份文件
+*.bak
+*.tmp
+
+# 仿真生成的文件
+*.vwlf
+*.vst
+*.vo
+*.sdo
+
+# 编程文件
+*.jdi
