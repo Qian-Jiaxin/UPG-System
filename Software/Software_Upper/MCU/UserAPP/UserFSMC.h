@@ -14,8 +14,8 @@ extern "C" {
 
 #define FSMC_ADDRESS                        ((uint32_t)0x60000000)
 
-// #define ENABLECONTROLLER_ADDRESS             FSMC_ADDRESS + 0x00
-#define ENABLECONTROLLER_ADDRESS            0x00
+#define ENABLECONTROLLER_ADDRESS             FSMC_ADDRESS + 0x00
+// #define ENABLECONTROLLER_ADDRESS            0x00
 #define BEATCONTROLLER_ADDRESS              ENABLECONTROLLER_ADDRESS + ENABLECONTROLLER_SIZE
 #define PULSEWIDTH_ADDRESS                  BEATCONTROLLER_ADDRESS + BEATCONTROLLER_SIZE
 
@@ -33,6 +33,7 @@ int User_SetModuleBeat(uint8_t ModuleID, uint8_t* pBeatDelay);
 int User_SetAllModuleBeat(uint8_t* pBeatDelay);
 int User_SetPulseWidth(uint32_t PulseWidth);
 
+void User_FSMC_Test(void);
 
 #ifdef __cplusplus
 }

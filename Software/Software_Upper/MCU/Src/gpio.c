@@ -62,7 +62,7 @@ void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(FPGA_TRIGER_OUT_GPIO_Port, FPGA_TRIGER_OUT_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(FPGA_NRST_GPIO_Port, FPGA_NRST_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(FPGA_NRST_GPIO_Port, FPGA_NRST_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin : ETH_NREST_Pin */
   GPIO_InitStruct.Pin = ETH_NREST_Pin;

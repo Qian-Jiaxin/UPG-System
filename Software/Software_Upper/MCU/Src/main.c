@@ -68,7 +68,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+	uint8_t w_temp[2] = {0x01, 0x02};
+	uint8_t r_temp[2];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -94,9 +95,11 @@ int main(void)
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
   User_InitModule(); // Initialize FSMC Module
-  User_EnableModule(0x01); // Enable Module 1
-  User_EnableModule(0x02); // Enable Module 2
-  User_SetPulseWidth(6000);  // Set Pulse Width to 6000ns
+//  User_EnableModule(0x01); // Enable Module 1
+//  User_EnableModule(0x02); // Enable Module 2
+//  User_SetPulseWidth(6000);  // Set Pulse Width to 6000ns
+
+	User_FSMC_Test();
   /* USER CODE END 2 */
 
   /* Infinite loop */

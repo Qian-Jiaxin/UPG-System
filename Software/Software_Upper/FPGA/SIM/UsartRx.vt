@@ -1,0 +1,111 @@
+`timescale 1 ps/ 1 ps
+`define clk_period 5000
+module UsartRx_tb();
+
+reg clk;
+reg rst_n;
+reg rx;
+// wires                                               
+wire [7:0]  data;
+wire done;
+                       
+UsartRx i1 (
+	.clk(clk),
+	.data(data),
+	.done(done),
+	.rst_n(rst_n),
+	.rx(rx)
+);
+initial                                                
+begin      
+	clk = 0;
+	forever
+		#(`clk_period/2)
+		clk = ~clk;                                                      
+end
+
+initial 
+begin
+	rst_n = 1;
+	rx = 1;
+	#(1*`clk_period) rst_n = 0;
+	#(5*`clk_period) rst_n = 1; 
+	#(1*`clk_period)
+	rx  =1;
+	#(1*`clk_period)
+	rx = 0;  //start
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;  //stop
+	#(20833*`clk_period)
+
+	#(1*`clk_period)
+	rx = 0;  //start
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 1;  //stop
+	#(20833*`clk_period)
+
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;	 //start
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 1;
+	#(20833*`clk_period)
+	rx = 0;
+	#(20833*`clk_period)
+	rx = 1;  //stop
+	#(20833*`clk_period)
+
+	#(20833*`clk_period)
+	$stop;
+
+end
+                                                  
+endmodule
+
