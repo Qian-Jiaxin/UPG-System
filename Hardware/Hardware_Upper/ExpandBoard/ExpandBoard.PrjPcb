@@ -64,7 +64,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KHQPFMEJ
 
 [Document2]
 DocumentPath=..\ControlBoard\Lib\CustomizedLib.SchLib
@@ -116,6 +116,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RGMGGALR
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ExpandBoard\Design Rule Check - ExBoard.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
